@@ -20,24 +20,24 @@ class Work extends Component {
         </div>
         <div className="image-box" id="imageRight">
           <img src={LiteratoImage} alt="Literato Website" className="image" />
-          <a href="/literato" className="overlay">
+          <Link to="/literato" className="overlay">
             <div className="header">Literato </div>
             <div className="subtitle">React - Frontend - Backend - API </div>
-          </a>
+          </Link>
         </div>
         <div className="image-box" id="imageLeft">
           <img src={BattleShip} alt="BattleShip Website" className="image" />
-          <a href="/battleship" div className="overlay">
+          <Link to="/battleship" div className="overlay">
             <div className="header">BattleShip</div>
             <div className="subtitle">React - Frontend </div>
-          </a>
+          </Link>
         </div>
         <div className="image-box" id="imageRight">
           <img src={Personal} alt="Personal Website" className="image" />
-          <a href="/literato" className="overlay">
+          <Link to="/literato" className="overlay">
             <div className="header">Personal WebPage</div>
             <div className="subtitle">React - Frontend - Backend</div>
-          </a>
+          </Link>
         </div>
       </div>
     )
