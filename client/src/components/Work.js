@@ -4,7 +4,7 @@ import SpotiFoundImage from './images/spotifound.png'
 import LiteratoImage from './images/literato.png'
 import BattleShip from './images/battleship.png'
 import Personal from './images/personal.png'
-import { BrowserRouter as Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Work extends Component {
   render() {
