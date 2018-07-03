@@ -4,6 +4,8 @@ import SpotiFoundImage from './images/spotifound.png'
 import LiteratoImage from './images/literato.png'
 import BattleShip from './images/battleship.png'
 import Personal from './images/personal.png'
+import SpotiFound from './SpotiFound'
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
 
 class Work extends Component {
   render() {
@@ -11,10 +13,10 @@ class Work extends Component {
       <div>
         <div className="image-box" id="imageLeft">
           <img src={SpotiFoundImage} alt="SpotiFound Website" className="image" />
-          <a href="/Spoti-Found" className="overlay">
+          <Link to={SpotiFound} className="overlay">
             <div className="header">Spoti-Found</div>
             <div className="subtitle">React - Frontend - API </div>
-          </a>
+          </Link>
         </div>
         <div className="image-box" id="imageRight">
           <img src={LiteratoImage} alt="Literato Website" className="image" />
