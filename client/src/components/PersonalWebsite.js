@@ -10,10 +10,9 @@ class PersonalWebpage extends Component {
           <video autoPlay loop src={PersonalWebpageGif} alt="PersonalWebpage-Gif" className="gif" />
         </div>
         <div className="textBox">
-          <p>(Currently in Progress: updating styling, responsivness, and general code improvements)</p>
           <p id="text">
-            Using Spotifys API, Spoti-Found is a music player that allows you to search, play and add your favorite
-            music to your library (Note: Spotify does not provide playback for all songs, some may not play)
+            The website you are currently using! browse my different projects, send me a message if you have any
+            questions.
           </p>
           <a href="https://github.com/stmoffatt/personal-website" target="_blank" rel="noopener noreferrer">
             <button className="btn waves-effect waves-light alink">GitHub</button>
