@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PersonalWebpageGif from './images/personalWebpageGif.mp4'
+import PersonalWebsiteGif from './images/personalWebsiteGif.mp4'
 import '../App.css'
 
 class PersonalWebpage extends Component {
@@ -7,7 +7,7 @@ class PersonalWebpage extends Component {
     return (
       <div>
         <div className="gifBox">
-          <video autoPlay loop src={PersonalWebpageGif} alt="PersonalWebpage-Gif" className="gif" />
+          <video autoPlay loop src={PersonalWebsiteGif} alt="PersonalWebpage-Gif" className="gif" />
         </div>
         <div className="textBox">
           <p id="text">
