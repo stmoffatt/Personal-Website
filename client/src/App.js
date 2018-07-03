@@ -62,34 +62,31 @@ class App extends Component {
             )}
           />
           <Route
-            exact
             path="/spoti-found"
-            render={props => (
+            component={
               <div>
                 <NavigationBar />
                 <SpotiFound />
               </div>
-            )}
+            }
           />
           <Route
-            exact
             path="/literato"
-            render={props => (
+            component={
               <div>
                 <NavigationBar />
                 <Literato />
               </div>
-            )}
+            }
           />
           <Route
-            exact
             path="/battleship"
-            render={props => (
+            component={
               <div>
                 <NavigationBar />
                 <Battleship />
               </div>
-            )}
+            }
           />
           <Route
             exact

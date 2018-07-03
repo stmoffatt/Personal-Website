@@ -4,6 +4,7 @@ import SpotiFoundImage from './images/spotifound.png'
 import LiteratoImage from './images/literato.png'
 import BattleShip from './images/battleship.png'
 import Personal from './images/personal.png'
+import { BrowserRouter as Link } from 'react-router-dom'
 
 class Work extends Component {
   render() {
@@ -11,28 +12,28 @@ class Work extends Component {
       <div>
         <div className="image-box" id="imageLeft">
           <img src={SpotiFoundImage} alt="SpotiFound Website" className="image" />
-          <a href="/Spoti-Found" className="overlay">
+          <Link to="/Spoti-Found" className="overlay">
             <div className="header">Spoti-Found</div>
             <div className="subtitle">React - Frontend - API </div>
           </a>
         </div>
         <div className="image-box" id="imageRight">
           <img src={LiteratoImage} alt="Literato Website" className="image" />
-          <a href="/literato" className="overlay">
+          <Link to="/literato" className="overlay">
             <div className="header">Literato </div>
             <div className="subtitle">React - Frontend - Backend - API </div>
           </a>
         </div>
         <div className="image-box" id="imageLeft">
           <img src={BattleShip} alt="BattleShip Website" className="image" />
-          <a href="/battleship" div className="overlay">
+          <Link to="/battleship" div className="overlay">
             <div className="header">BattleShip</div>
             <div className="subtitle">React - Frontend </div>
           </a>
         </div>
         <div className="image-box" id="imageRight">
           <img src={Personal} alt="Personal Website" className="image" />
-          <a href="/literato" className="overlay">
+          <Link to="/literato" className="overlay">
             <div className="header">Personal WebPage</div>
             <div className="subtitle">React - Frontend - Backend</div>
           </a>
