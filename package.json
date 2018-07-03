@@ -13,13 +13,6 @@
     "start": "node server/index.js",
     "heroku-postbuild": "cd server && sequelize db:migrate && cd .. && cd client && yarn install && yarn build"
   },
-  "static.json": {
-    "root": "build/",
-    "clean_urls": false,
-    "routes": {
-      "/**": "index.html"
-  }
-},
   "author": "",
   "license": "ISC",
   "dependencies": {
