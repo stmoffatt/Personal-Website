@@ -6,6 +6,7 @@ import Literato from './components/Literato'
 import Battleship from './components/Battleship'
 import SpotiFound from './components/SpotiFound'
 import Contact from './components/Contact'
+import PersonalWebsite from './components/PersonalWebsite'
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 
 var apiUrl
@@ -88,6 +89,16 @@ class App extends Component {
               <div>
                 <NavigationBar />
                 <Battleship />
+              </div>
+            )}
+          />
+          <Route
+            exact
+            path="/personal-website"
+            render={props => (
+              <div>
+                <NavigationBar />
+                <PersonalWebsite />
               </div>
             )}
           />

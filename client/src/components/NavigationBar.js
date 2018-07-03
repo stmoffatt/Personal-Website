@@ -9,8 +9,10 @@ class NavigationBar extends Component {
     return (
       <div>
         <Navbar brand="Sean Moffatt" right>
-          <NavItem id="work">
-            <Link to="/">Work</Link>
+          <NavItem>
+            <Link id="work" to="/">
+              Work
+            </Link>
           </NavItem>
           <NavItem id="contact">
             <Link to="/contact">Contact</Link>

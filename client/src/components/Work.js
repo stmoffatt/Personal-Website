@@ -34,8 +34,8 @@ class Work extends Component {
         </div>
         <div className="image-box" id="imageRight">
           <img src={Personal} alt="Personal Website" className="image" />
-          <Link to="/literato" className="overlay">
-            <div className="header">Personal WebPage</div>
+          <Link to="/personal-website" className="overlay">
+            <div className="header">Personal Website</div>
             <div className="subtitle">React - Frontend - Backend</div>
           </Link>
         </div>
