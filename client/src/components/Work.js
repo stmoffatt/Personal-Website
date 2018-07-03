@@ -13,7 +13,7 @@ class Work extends Component {
       <div>
         <div className="image-box" id="imageLeft">
           <img src={SpotiFoundImage} alt="SpotiFound Website" className="image" />
-          <Link to={SpotiFound} className="overlay">
+          <Link to="/spoti-found" className="overlay">
             <div className="header">Spoti-Found</div>
             <div className="subtitle">React - Frontend - API </div>
           </Link>
