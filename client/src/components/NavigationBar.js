@@ -9,12 +9,12 @@ class NavigationBar extends Component {
     return (
       <div>
         <Navbar brand="Sean Moffatt" right>
-          <NavItem id="work">
-            <Link to="/">Work</Link>
-          </NavItem>
-          <NavItem id="contact" href="contact">
-            <Link to="/contact">Contact</Link>
-          </NavItem>
+          <Link to="/">
+            <NavItem id="work">Work</NavItem>
+          </Link>
+          <Link to="/contact">
+            <NavItem id="contact">Contact</NavItem>
+          </Link>
         </Navbar>
       </div>
     )
