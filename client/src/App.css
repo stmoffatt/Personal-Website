@@ -1,0 +1,72 @@
+/* general */
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: 'Chivo';
+}
+
+.site-content {
+  flex: 1 0 auto;
+}
+
+/* individual work pages */
+
+.gifBox {
+  width: 75%;
+  position: relative;
+  left: 11vw;
+}
+.gif {
+  width: 100%;
+  height: auto;
+  display: block;
+  top: -15px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+#text {
+  color: #222;
+  font-family: 'Chivo';
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.textBox {
+  padding-top: 1vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
+}
+
+.btn,
+.btn-large {
+  background-color: #222;
+  width: 200px;
+  margin: 20px;
+  font-family: 'Chivo';
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.btn:hover,
+.btn-large:hover {
+  background-color: #aaa;
+  color: #222;
+}
+.btn:focus,
+.btn-large:focus,
+.btn-floating:focus {
+  background-color: #aaa;
+  color: #222;
+}

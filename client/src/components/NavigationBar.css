@@ -1,0 +1,53 @@
+nav {
+  background-color: #fff;
+  margin-top: 1.5vw;
+  margin-bottom: 3vh;
+}
+
+.myactive {
+  color: black;
+}
+
+nav ul a {
+  color: #aaa;
+  font-family: 'Chivo';
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav .brand-logo {
+  color: #222;
+  font-family: 'Chivo';
+  font-size: 24px;
+  text-transform: capitalize;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav a {
+  color: #222;
+}
+
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.side-nav {
+  box-shadow: 0 0px 0px 0;
+}
+
+nav ul a:hover,
+nav ul a:active,
+nav ul a:focus {
+  color: #333;
+}
