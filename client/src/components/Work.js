@@ -15,28 +15,28 @@ class Work extends Component {
           <Link to="/Spoti-Found" className="overlay">
             <div className="header">Spoti-Found</div>
             <div className="subtitle">React - Frontend - API </div>
-          </a>
+          </Link>
         </div>
         <div className="image-box" id="imageRight">
           <img src={LiteratoImage} alt="Literato Website" className="image" />
           <Link to="/literato" className="overlay">
             <div className="header">Literato </div>
             <div className="subtitle">React - Frontend - Backend - API </div>
-          </a>
+          </Link>
         </div>
         <div className="image-box" id="imageLeft">
           <img src={BattleShip} alt="BattleShip Website" className="image" />
           <Link to="/battleship" div className="overlay">
             <div className="header">BattleShip</div>
             <div className="subtitle">React - Frontend </div>
-          </a>
+          </Link>
         </div>
         <div className="image-box" id="imageRight">
           <img src={Personal} alt="Personal Website" className="image" />
           <Link to="/literato" className="overlay">
             <div className="header">Personal WebPage</div>
             <div className="subtitle">React - Frontend - Backend</div>
-          </a>
+          </Link>
         </div>
       </div>
     )
