@@ -17,6 +17,7 @@ class Contact extends Component {
   handleChange(event) {
     const contactState = Object.assign({}, this.state.contact)
     contactState[event.target.name] = event.target.value
+    console.log(contactState)
     this.setState({ contact: contactState })
   }
 
