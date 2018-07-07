@@ -46,8 +46,16 @@ nav,
   box-shadow: 0 0px 0px 0;
 }
 
-nav ul a:hover,
-nav ul a:active,
-nav ul a:focus {
+nav ul a:hover #link,
+nav ul a:active #link,
+nav ul a:focus #link {
   color: #333;
+}
+
+nav ul a:hover #link {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav ul a:hover {
+  background-color: white;
 }
