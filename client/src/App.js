@@ -35,6 +35,7 @@ class App extends Component {
       method: 'POST',
     })
       .then(rawResponse => {
+        console.log(rawResponse.json())
         return rawResponse.json()
       })
       .then(parsedResponse => {

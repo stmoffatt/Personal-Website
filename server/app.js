@@ -16,6 +16,12 @@ app.get('/', (req, res) => {
   res.json({ message: 'API Example App' })
 })
 
+app.get('/contact', (req, res) => {
+  Contact.findAll().then(contact => {
+    res.json({ contact: contact })
+  })
+})
+
 app.post('/contact', (req, res) => {
   req.checkBody('name', 'Is required').notEmpty()
   req.checkBody('email', 'Is required').notEmpty()

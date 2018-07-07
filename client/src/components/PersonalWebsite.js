@@ -18,7 +18,7 @@ class PersonalWebpage extends Component {
             <button className="btn waves-effect waves-light alink">GitHub</button>
           </a>
           <a href="https://sean-moffatt.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <button className="btn waves-effect waves-light alink">Try Personal Website</button>
+            <button className="btn waves-effect waves-light alink">Try Personal</button>
           </a>
         </div>
       </div>
