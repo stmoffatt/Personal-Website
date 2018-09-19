@@ -11,7 +11,7 @@ class Battleship extends Component {
         </div>
         <div className="textBox">
           <p id="text">
-            Classic Battleship, test your skills against the computer as play either easy, medium, or hard
+            Classic Battleship, test your skills against the computer 
           </p>
           <a href="https://github.com/stmoffatt/Battleship" target="_blank" rel="noopener noreferrer">
             <button className="btn waves-effect waves-light alink">GitHub</button>
