@@ -12,7 +12,7 @@ class Literato extends Component {
         <div className="textBox">
           <p id="text">
             Using google books API, Literato allows users to search for books, add them to their collection, and trade
-            them with other users
+            them with other users. If you do not have an account use email: example password: example
           </p>
           <a href="https://github.com/stmoffatt/literato" target="_blank" rel="noopener noreferrer">
             <button className="btn waves-effect waves-light alink">GitHub</button>

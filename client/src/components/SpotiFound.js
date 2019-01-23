@@ -13,8 +13,8 @@ class SpotiFound extends Component {
           <p>(Currently in Progress: updating styling, responsivness, and general code improvements)</p>
           <p id="text">
             Using Spotifys API, Spoti-Found is a music player that allows you to search, play and add your favorite
-            music to your library (Note: Spotify does not provide playback for all songs, some may
-            not play)
+            music to your library. If you do not have an account use email: spotifoundex@gmail.com password: Example12
+            (Note: Spotify does not provide playback for all songs, some may not play)
           </p>
           <a href="https://github.com/stmoffatt/spoti-found" target="_blank" rel="noopener noreferrer">
             <button className="btn waves-effect waves-light alink">GitHub</button>
