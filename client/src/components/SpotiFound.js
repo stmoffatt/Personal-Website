@@ -10,7 +10,7 @@ class SpotiFound extends Component {
           <video autoPlay loop src={SpotiFoundGif} alt="SpotiFound-Gif" className="gif" />
         </div>
         <div className="textBox">
-          <p>(Currently in Progress: updating styling, responsivness, and general code improvements)</p>
+          <p>(Currently in Progress: updating styling, responsivness, and bug fixes)</p>
           <p id="text">
             Using Spotifys API, Spoti-Found is a music player that allows you to search, play and add your favorite
             music to your library. If you do not have an account use email: spotifoundex@gmail.com password: Example12
